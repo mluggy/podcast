@@ -249,10 +249,10 @@ og_font: ""
 # and "right" means "end" regardless of language.
 # valign: vertical text alignment - "top", "middle", or "bottom".
 og_text_area:
-  top: 1100
-  left: 100
-  width: 2466
-  height: 1466
+  top: 2096
+  left: 70
+  width: 2526
+  height: 500
   align: center
   valign: middle
 
