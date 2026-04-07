@@ -10,9 +10,8 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Tue, 07 Apr 2026 13:13:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 13:23:35 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
-    <managingEditor>מיכאל לוגסי</managingEditor>
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
     <itunes:author>מיכאל לוגסי</itunes:author>
