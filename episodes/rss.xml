@@ -1,50 +1,805 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
-    <title>Your Podcast</title>
-    <description>A podcast about interesting things</description>
+    <title>הפודקאסט של מיכאל</title>
+    <description>פודקאסט על AI, למידת מכונה, בינה מלאכותית, תכנות וטכנולוגיה</description>
     <link>{{SITE_URL}}</link>
     <image>
-      <url>{{SITE_URL}}/cover.png</url>
-      <title>Your Podcast</title>
+      <url>{{SITE_URL}}/cover.jpg</url>
+      <title>הפודקאסט של מיכאל</title>
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Tue, 07 Apr 2026 13:08:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 13:13:09 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
-    <managingEditor>Your Name</managingEditor>
-    <copyright>CC BY 4.0</copyright>
-    <language>en</language>
-    <itunes:author>Your Name</itunes:author>
-    <itunes:summary>Your Podcast</itunes:summary>
+    <managingEditor>מיכאל לוגסי</managingEditor>
+    <copyright>מיכאל לוגסי</copyright>
+    <language>he</language>
+    <itunes:author>מיכאל לוגסי</itunes:author>
+    <itunes:summary>הפודקאסט של מיכאל</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:owner>
-      <itunes:name>Your Name</itunes:name>
-      <itunes:email>you@example.com</itunes:email>
+      <itunes:name>מיכאל לוגסי</itunes:name>
+      <itunes:email>michael@lugassy.net</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology" />
-    <itunes:image href="{{SITE_URL}}/cover.png" />
-    <podcast:locked owner="you@example.com">yes</podcast:locked>
+    <itunes:category text="News">
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    <itunes:category text="Business" />
+    <itunes:image href="{{SITE_URL}}/cover.jpg" />
+    <podcast:guid>df3d886a-09fe-5bd0-ae7c-d8eae75a6bf2</podcast:guid>
+    <podcast:locked owner="michael@lugassy.net">yes</podcast:locked>
     <podcast:medium>podcast</podcast:medium>
-    <podcast:funding url="https://github.com/sponsors/mluggy">Support this podcast</podcast:funding>
-    <podcast:publisher>Your Name</podcast:publisher>
+    <podcast:funding url="https://github.com/sponsors/mluggy">תמכו בפודקאסט</podcast:funding>
+    <podcast:publisher>מיכאל לוגסי</podcast:publisher>
+    <podcast:updateFrequency>biweekly</podcast:updateFrequency>
+    <podcast:person role="host" href="https://x.com/mluggy">מיכאל לוגסי</podcast:person>
     <item>
-      <title>Episode 1: Welcome to coil</title>
-      <description>This is a demo episode shipped with coil to show how things work. Replace it with your own content — drop a WAV file and push!</description>
+      <title>פרק 1: פיילוט</title>
+      <description>ראיון מדהים, באמת מדהים, של לקס פרידמן עם סונדאר פיצ&apos;אי. מנכ&quot;ל גוגל ואלפאבית בכבודו ובעצמו. ואני אומר לכם, זה לא עוד ראיון טכנולוגי יבש. זה היה משהו אחר. דיברו שם על כל כך הרבה דברים.</description>
       <link>{{SITE_URL}}/1</link>
-      <guid isPermaLink="false">s1e1</guid>
-      <pubDate>Sat, 04 Apr 2026 16:02:30 GMT</pubDate>
-      <enclosure url="{{SITE_URL}}/s1e1.mp3" length="363976" type="audio/mpeg" />
-      <itunes:summary>This is a demo episode shipped with coil to show how things work. Replace it with your own content — drop a WAV file and push!</itunes:summary>
+      <guid isPermaLink="false">michael-he-s1e1</guid>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e1.mp3" length="14033022" type="audio/mpeg" />
+      <itunes:summary>ראיון מדהים, באמת מדהים, של לקס פרידמן עם סונדאר פיצ&apos;אי. מנכ&quot;ל גוגל ואלפאבית בכבודו ובעצמו. ואני אומר לכם, זה לא עוד ראיון טכנולוגי יבש. זה היה משהו אחר. דיברו שם על כל כך הרבה דברים.</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>00:20</itunes:duration>
-      <itunes:image href="{{SITE_URL}}/s1e1.png" />
+      <itunes:duration>14:37</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e1.jpg" />
       <itunes:season>1</itunes:season>
       <itunes:episode>1</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <dc:creator>Your Name</dc:creator>
-      <podcast:transcript url="{{SITE_URL}}/s1e1.srt" type="application/x-subrip" rel="captions" language="en" />
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e1.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 2: צ&apos;אט ג&apos;יפיטי לעסקים</title>
+      <description>ארגון הוא כאוס מסודר. מאות או אלפי עובדים שמייצרים תוכן בטקסט, שיחות וקבצים, המון קבצים. OpenAI לא מנסה להיות בית חדש לקבצים שלך. היא 20 שנה מאוחר במשחק הזה שחציו שייך למיקרוסופט וחציו לגוגל. היא מתחברת לקבצים במערכות האלה באמצעות קונקטורים.</description>
+      <link>{{SITE_URL}}/2</link>
+      <guid isPermaLink="false">michael-he-s1e2</guid>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e2.mp3" length="5568931" type="audio/mpeg" />
+      <itunes:summary>ארגון הוא כאוס מסודר. מאות או אלפי עובדים שמייצרים תוכן בטקסט, שיחות וקבצים, המון קבצים. OpenAI לא מנסה להיות בית חדש לקבצים שלך. היא 20 שנה מאוחר במשחק הזה שחציו שייך למיקרוסופט וחציו לגוגל. היא מתחברת לקבצים במערכות האלה באמצעות קונקטורים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>05:48</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e2.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e2.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 3: מי העיר את הענק מרדמונד</title>
+      <description>לפני שבועיים, סאטיה נאדלה, בחולצת טריקו נינוחה וסניקרס, עלה לבמה של כנס המפתחים Build, והכריז על... ובכן, על הכל. אם הייתי צריך לסכם את האירוע במילה אחת, היא הייתה &quot;Production&quot;. בשתי מילים: &quot;Production Ready&quot;.</description>
+      <link>{{SITE_URL}}/3</link>
+      <guid isPermaLink="false">michael-he-s1e3</guid>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e3.mp3" length="6161179" type="audio/mpeg" />
+      <itunes:summary>לפני שבועיים, סאטיה נאדלה, בחולצת טריקו נינוחה וסניקרס, עלה לבמה של כנס המפתחים Build, והכריז על... ובכן, על הכל. אם הייתי צריך לסכם את האירוע במילה אחת, היא הייתה &quot;Production&quot;. בשתי מילים: &quot;Production Ready&quot;.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>06:25</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e3.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e3.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 4: גוגל בנתה גוגל מעל גוגל</title>
+      <description>אחרי שמיקרוסופט הציגה את הכלים הכבדים למפתחים, גוגל הגיבה עם מבול של הכרזות לצרכנים. אבל האם מאחורי הפיצ&apos;רים הנוצצים מסתתר האק מבריק שעשוי להציל את עסקי החיפוש?</description>
+      <link>{{SITE_URL}}/4</link>
+      <guid isPermaLink="false">michael-he-s1e4</guid>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e4.mp3" length="3953101" type="audio/mpeg" />
+      <itunes:summary>אחרי שמיקרוסופט הציגה את הכלים הכבדים למפתחים, גוגל הגיבה עם מבול של הכרזות לצרכנים. אבל האם מאחורי הפיצ&apos;רים הנוצצים מסתתר האק מבריק שעשוי להציל את עסקי החיפוש?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>04:07</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e4.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e4.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 5: מרי מיקר ושקף לכל אזרח</title>
+      <description>צללתי לתוך 340 השקפים של הדוח השנתי המפלצתי של מרי מיקר על מצב האינטרנט, והפעם עם פוקוס מיוחד על AI.</description>
+      <link>{{SITE_URL}}/5</link>
+      <guid isPermaLink="false">michael-he-s1e5</guid>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e5.mp3" length="19738165" type="audio/mpeg" />
+      <itunes:summary>צללתי לתוך 340 השקפים של הדוח השנתי המפלצתי של מרי מיקר על מצב האינטרנט, והפעם עם פוקוס מיוחד על AI.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>20:33</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e5.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e5.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 6: כנס המפתחים של אפל 2025</title>
+      <description>כנס המפתחים 2025 של אפל, באפל פארק. עוד כנס, שהחל מהקורונה מתקיים כאן מהבית, מקופרטינו ולא בסן פרנסיסקו.</description>
+      <link>{{SITE_URL}}/6</link>
+      <guid isPermaLink="false">michael-he-s1e6</guid>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e6.mp3" length="8352957" type="audio/mpeg" />
+      <itunes:summary>כנס המפתחים 2025 של אפל, באפל פארק. עוד כנס, שהחל מהקורונה מתקיים כאן מהבית, מקופרטינו ולא בסן פרנסיסקו.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>08:42</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e6.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e6.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 7: קלוד קוד</title>
+      <description>על קלוד קוד של אנתרופיק והאם עורך הקוד כמו שאנחנו מכירים אותו עומד להיעלם?</description>
+      <link>{{SITE_URL}}/7</link>
+      <guid isPermaLink="false">michael-he-s1e7</guid>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e7.mp3" length="7840957" type="audio/mpeg" />
+      <itunes:summary>על קלוד קוד של אנתרופיק והאם עורך הקוד כמו שאנחנו מכירים אותו עומד להיעלם?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>08:10</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e7.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e7.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 8: סוכני AI אבולציוניים</title>
+      <description>מתי בפעם האחרונה שמעתם על בעיה במתמטיקה שאף אחד לא הצליח לשפר במשך חמישים ושש שנה? אני מדבר על תקופה שקדמה לנחיתה על הירח. עכשיו תדמיינו שבוקר אחד, אתם קמים ומגלים שבינה מלאכותית של גוגל, כזו שעוד לא שמעתם עליה, פשוט... עשתה את זה. זה בדיוק מה שקרה עם AlphaEvolve.</description>
+      <link>{{SITE_URL}}/8</link>
+      <guid isPermaLink="false">michael-he-s1e8</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e8.mp3" length="6449153" type="audio/mpeg" />
+      <itunes:summary>מתי בפעם האחרונה שמעתם על בעיה במתמטיקה שאף אחד לא הצליח לשפר במשך חמישים ושש שנה? אני מדבר על תקופה שקדמה לנחיתה על הירח. עכשיו תדמיינו שבוקר אחד, אתם קמים ומגלים שבינה מלאכותית של גוגל, כזו שעוד לא שמעתם עליה, פשוט... עשתה את זה. זה בדיוק מה שקרה עם AlphaEvolve.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>06:43</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e8.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e8.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 9: העלייה השקטה של מודלי State-Space</title>
+      <description>תחשבו רגע על התלמיד הכי חכם בכיתה. זה שיכול לצטט לכם מילה במילה כל ספר שהוא אי פעם קרא. מרשים, נכון? עכשיו תדמיינו שבשביל לענות על כל שאלה, לא משנה כמה פשוטה, הוא חייב לקרוא מחדש את כל הספרים בספרייה. כל פעם מחדש. פתאום זה נשמע פחות יעיל. ובכן, זה פחות או יותר מודל טרנספורמר. הארכיטקטורה הזו, שהיא הבסיס ל-ChatGPT ולרוב מודלי השפה הגדולים, היא מדהימה, אבל יש לה עקב אכילס רציני. מנגנון ה&quot;קשב&quot; (Attention) שלה, שמאפשר לה להסתכל על כל מילה בהקשר של כל מילה אחרת, דורש כוח חישוב שעולה בריבוע עם אורך הרצף. וזה לא בעיה של אהלן-אהלן. זה חסם אמיתי שמונע מאיתנו להשתמש במודלים האלה כדי לנתח ספר שלם או את כל הקוד בפרויקט שלנו במכה אחת. אבל בשקט בשקט, מתחת לרדאר, צומחת לה אלטרנטיבה עם פילוסופיה אחרת לגמרי: מודלי ה-State-Space.</description>
+      <link>{{SITE_URL}}/9</link>
+      <guid isPermaLink="false">michael-he-s1e9</guid>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e9.mp3" length="5217009" type="audio/mpeg" />
+      <itunes:summary>תחשבו רגע על התלמיד הכי חכם בכיתה. זה שיכול לצטט לכם מילה במילה כל ספר שהוא אי פעם קרא. מרשים, נכון? עכשיו תדמיינו שבשביל לענות על כל שאלה, לא משנה כמה פשוטה, הוא חייב לקרוא מחדש את כל הספרים בספרייה. כל פעם מחדש. פתאום זה נשמע פחות יעיל. ובכן, זה פחות או יותר מודל טרנספורמר. הארכיטקטורה הזו, שהיא הבסיס ל-ChatGPT ולרוב מודלי השפה הגדולים, היא מדהימה, אבל יש לה עקב אכילס רציני. מנגנון ה&quot;קשב&quot; (Attention) שלה, שמאפשר לה להסתכל על כל מילה בהקשר של כל מילה אחרת, דורש כוח חישוב שעולה בריבוע עם אורך הרצף. וזה לא בעיה של אהלן-אהלן. זה חסם אמיתי שמונע מאיתנו להשתמש במודלים האלה כדי לנתח ספר שלם או את כל הקוד בפרויקט שלנו במכה אחת. אבל בשקט בשקט, מתחת לרדאר, צומחת לה אלטרנטיבה עם פילוסופיה אחרת לגמרי: מודלי ה-State-Space.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>05:26</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e9.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e9.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 10: רובוטקסי ומי פנוי באוסטין?</title>
+      <description>ה-22 ביוני אלפיים עשרים וחמש, ייחשב בוודאות יום היסטורי. יום שהתעכב לפחות עשור. ההשקה של רובוטקסי באוסטין, עיר כתר הקטיפה יכולה לעצב מחדש את המדרכות והערים שלנו, וגם לטלטל מודל בעלות וניידות של מאה שנה.</description>
+      <link>{{SITE_URL}}/10</link>
+      <guid isPermaLink="false">michael-he-s1e10</guid>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e10.mp3" length="9569218" type="audio/mpeg" />
+      <itunes:summary>ה-22 ביוני אלפיים עשרים וחמש, ייחשב בוודאות יום היסטורי. יום שהתעכב לפחות עשור. ההשקה של רובוטקסי באוסטין, עיר כתר הקטיפה יכולה לעצב מחדש את המדרכות והערים שלנו, וגם לטלטל מודל בעלות וניידות של מאה שנה.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>09:58</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e10.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e10.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 11: הבינה המלאכותית של העם</title>
+      <description>דמיינו שאתם רוצים לבנות גורד שחקים, אבל במקום לשכור חברת בנייה אחת ענקית, אתם פשוט פותחים קריאה באינטרנט. כל אחד יכול לבוא, עם פטיש, עם מברג, עם טרקטור קטן מהגינה, ולעזור. כל אחד עובד בזמן שלו, בקצב שלו, ואתם איכשהו צריכים לוודא שהבניין לא מתמוטט. נשמע כמו כאוס, נכון? ובכן, חברה בשם PrimeIntellect עשתה ממש את זה, אבל עם מודל AI של שלושים ושניים מיליארד פרמטרים.</description>
+      <link>{{SITE_URL}}/11</link>
+      <guid isPermaLink="false">michael-he-s1e11</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e11.mp3" length="4096878" type="audio/mpeg" />
+      <itunes:summary>דמיינו שאתם רוצים לבנות גורד שחקים, אבל במקום לשכור חברת בנייה אחת ענקית, אתם פשוט פותחים קריאה באינטרנט. כל אחד יכול לבוא, עם פטיש, עם מברג, עם טרקטור קטן מהגינה, ולעזור. כל אחד עובד בזמן שלו, בקצב שלו, ואתם איכשהו צריכים לוודא שהבניין לא מתמוטט. נשמע כמו כאוס, נכון? ובכן, חברה בשם PrimeIntellect עשתה ממש את זה, אבל עם מודל AI של שלושים ושניים מיליארד פרמטרים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>04:16</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e11.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e11.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 12: תקציב המחשבה</title>
+      <description>קרה לכם פעם ששאלתם את הבוס שאלה של כן/לא, וקיבלתם בתגובה הרצאה של חצי שעה? זה מתיש, נכון? וגם יקר, במיוחד אם הבוס הזה הוא מודל AI שגובה תשלום לפי מילה. גוגל בעצמה מודה שמודלי חשיבה יכולים להיות יקרים פי 6 מעיבוד רגיל, איטיים, ולפעמים תקועים ב-Loop אינסופי שהופך מודלים ללא-שמישים עבור הרבה יישומים בעולם האמיתי. הפתרון החדש והאלגנטי לבעיה הזו הוא מודלים היברידיים ו&quot;תקציב המחשבה&quot; שמאפשר לנו סוף סוף לשלוט בעוצמת החשיבה של ה-AI.</description>
+      <link>{{SITE_URL}}/12</link>
+      <guid isPermaLink="false">michael-he-s1e12</guid>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e12.mp3" length="3777140" type="audio/mpeg" />
+      <itunes:summary>קרה לכם פעם ששאלתם את הבוס שאלה של כן/לא, וקיבלתם בתגובה הרצאה של חצי שעה? זה מתיש, נכון? וגם יקר, במיוחד אם הבוס הזה הוא מודל AI שגובה תשלום לפי מילה. גוגל בעצמה מודה שמודלי חשיבה יכולים להיות יקרים פי 6 מעיבוד רגיל, איטיים, ולפעמים תקועים ב-Loop אינסופי שהופך מודלים ללא-שמישים עבור הרבה יישומים בעולם האמיתי. הפתרון החדש והאלגנטי לבעיה הזו הוא מודלים היברידיים ו&quot;תקציב המחשבה&quot; שמאפשר לנו סוף סוף לשלוט בעוצמת החשיבה של ה-AI.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>03:56</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e12.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e12.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 13: הנוכל מעמק הסיליקון</title>
+      <description>הסיפור הזה מתחיל, כמו סיפורים רבים בעידן הדיגיטלי, בפוסט אחד ברשת X. ציוץ. יריית הפתיחה בדרמה שתזעזע את עמק הסיליקון ותהפוך לדבר המדובר ביותר בעולם הטכנולוגיה, תחת הכינוי הבלתי נמנע &quot;סוהאם-גייט&quot;. במרכז הסערה עומד אדם אחד Soham Parekh, מהנדס תוכנה הודי צעיר ומוכשר להפליא, שהפך לסמל, לרוח רפאים במכונה של עולם הטכנולוגיה המודרני.</description>
+      <link>{{SITE_URL}}/13</link>
+      <guid isPermaLink="false">michael-he-s1e13</guid>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e13.mp3" length="9025035" type="audio/mpeg" />
+      <itunes:summary>הסיפור הזה מתחיל, כמו סיפורים רבים בעידן הדיגיטלי, בפוסט אחד ברשת X. ציוץ. יריית הפתיחה בדרמה שתזעזע את עמק הסיליקון ותהפוך לדבר המדובר ביותר בעולם הטכנולוגיה, תחת הכינוי הבלתי נמנע &quot;סוהאם-גייט&quot;. במרכז הסערה עומד אדם אחד Soham Parekh, מהנדס תוכנה הודי צעיר ומוכשר להפליא, שהפך לסמל, לרוח רפאים במכונה של עולם הטכנולוגיה המודרני.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>09:24</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e13.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e13.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 14: הסוכן החדש של OpenAI</title>
+      <description>ממודל פסיבי של שאלה-תשובה למודל פרואקטיבי של ביצוע משימות, המעבר מצ&apos;אטבוטים לסוכנים הואץ השבוע עם ההכרזה על ChatGPT Agent. יכולת שהייתה שמורה למנויי Pro ו-200 דולר לחודש, זמינה עכשיו למנויי Plus ב-20 דולר לחודש, שזה קצת יותר מ-12 מיליון מנויים.</description>
+      <link>{{SITE_URL}}/14</link>
+      <guid isPermaLink="false">michael-he-s1e14</guid>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e14.mp3" length="5141776" type="audio/mpeg" />
+      <itunes:summary>ממודל פסיבי של שאלה-תשובה למודל פרואקטיבי של ביצוע משימות, המעבר מצ&apos;אטבוטים לסוכנים הואץ השבוע עם ההכרזה על ChatGPT Agent. יכולת שהייתה שמורה למנויי Pro ו-200 דולר לחודש, זמינה עכשיו למנויי Plus ב-20 דולר לחודש, שזה קצת יותר מ-12 מיליון מנויים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>05:21</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e14.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e14.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 15: חשבונות ענן מפתיעים</title>
+      <description>שבעים ושניים אלף דולר. זו לא מקדמה על בית. זו לא מכונית יוקרה. זה החשבון שמפתח אחד קיבל... על טסט. טעות קוד אחת, לולאה אינסופית שנשכחה, שרצה רק כמה שעות וכמעט פירקה לו את החברה. היום נצלול לתוך סיוט של כל מפתח: חשבון ענן מפתיע, של חמש, שש, ואפילו שבע ספרות שהופכות חלום של סטארטאפ מבטיח לקטסטרופה פיננסית.</description>
+      <link>{{SITE_URL}}/15</link>
+      <guid isPermaLink="false">michael-he-s1e15</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e15.mp3" length="9020856" type="audio/mpeg" />
+      <itunes:summary>שבעים ושניים אלף דולר. זו לא מקדמה על בית. זו לא מכונית יוקרה. זה החשבון שמפתח אחד קיבל... על טסט. טעות קוד אחת, לולאה אינסופית שנשכחה, שרצה רק כמה שעות וכמעט פירקה לו את החברה. היום נצלול לתוך סיוט של כל מפתח: חשבון ענן מפתיע, של חמש, שש, ואפילו שבע ספרות שהופכות חלום של סטארטאפ מבטיח לקטסטרופה פיננסית.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>09:23</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e15.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e15.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 16: נפילתה של Airalo</title>
+      <description>מי לא מכיר את Airalo? סטארטאפ קטן וחמוד שהציל אותנו מהנבזיות של חברות סלולר בישראל, שהבטיח גלישה זולה בחו&quot;ל בלי כאב ראש, בלי סים פיזי, בלי למשכן כליה. אחרי טיול קצר באירופה אני מרגיש שמשהו שם נסדק. הקליטה פשוט זייפה ברמה שהיא לא הייתה 40% מהזמן. ולמה אני כזה דרמטי? כי האמנתי בהם מהרגע הראשון, המלצתי עליהם תחת כל עץ רענן, הרווחתי מהם מאות דולרים ב-affiliate fees, עד כדי שלא שילמתי על גלישה בחו&quot;ל במשך תקופה.</description>
+      <link>{{SITE_URL}}/16</link>
+      <guid isPermaLink="false">michael-he-s1e16</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e16.mp3" length="4773972" type="audio/mpeg" />
+      <itunes:summary>מי לא מכיר את Airalo? סטארטאפ קטן וחמוד שהציל אותנו מהנבזיות של חברות סלולר בישראל, שהבטיח גלישה זולה בחו&quot;ל בלי כאב ראש, בלי סים פיזי, בלי למשכן כליה. אחרי טיול קצר באירופה אני מרגיש שמשהו שם נסדק. הקליטה פשוט זייפה ברמה שהיא לא הייתה 40% מהזמן. ולמה אני כזה דרמטי? כי האמנתי בהם מהרגע הראשון, המלצתי עליהם תחת כל עץ רענן, הרווחתי מהם מאות דולרים ב-affiliate fees, עד כדי שלא שילמתי על גלישה בחו&quot;ל במשך תקופה.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>04:58</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e16.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e16.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 17: יום הדין הקוונטי</title>
+      <description>בואו נדבר על סוף העולם. לא, לא עוד קורונה, ולא מטאור בדרך לכדור הארץ. אני מדבר על היום שבו כל סוד דיגיטלי שלכם, כל סיסמה, כל שיחה, כל עסקה בנקאית, הופכים לגלויים לכל. קוראים לזה Q-Day, יום הקוונטום. וזה לא עוד קשקוש בדיוני. זה אמיתי, וזה מפחיד יותר ממה שאתם חושבים.</description>
+      <link>{{SITE_URL}}/17</link>
+      <guid isPermaLink="false">michael-he-s1e17</guid>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e17.mp3" length="5650015" type="audio/mpeg" />
+      <itunes:summary>בואו נדבר על סוף העולם. לא, לא עוד קורונה, ולא מטאור בדרך לכדור הארץ. אני מדבר על היום שבו כל סוד דיגיטלי שלכם, כל סיסמה, כל שיחה, כל עסקה בנקאית, הופכים לגלויים לכל. קוראים לזה Q-Day, יום הקוונטום. וזה לא עוד קשקוש בדיוני. זה אמיתי, וזה מפחיד יותר ממה שאתם חושבים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>05:53</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e17.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e17.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 18: מטא מדפיסה כסף ושורפת אותו</title>
+      <description>מארק צוקרברג בנה מכונה להדפסת כסף, יעילה יותר מכל מה שהאנושות ידעה. ומצד שני, הוא לוקח את כל הכסף הזה, שם אותו בערימה ענקית, ושורף אותו במדורה הכי יקרה בהיסטוריה. השאלה היא, למה? האם הוא גאון שרואה עתיד שאנחנו לא מבינים?</description>
+      <link>{{SITE_URL}}/18</link>
+      <guid isPermaLink="false">michael-he-s1e18</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e18.mp3" length="9377793" type="audio/mpeg" />
+      <itunes:summary>מארק צוקרברג בנה מכונה להדפסת כסף, יעילה יותר מכל מה שהאנושות ידעה. ומצד שני, הוא לוקח את כל הכסף הזה, שם אותו בערימה ענקית, ושורף אותו במדורה הכי יקרה בהיסטוריה. השאלה היא, למה? האם הוא גאון שרואה עתיד שאנחנו לא מבינים?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>09:46</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e18.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e18.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 19: עתיד פיתוח התוכנה</title>
+      <description>בואו נודה על האמת. אנחנו חיים בעידן של אשליית מהירות. יש לנו כלי vibe לא רעים. מ-Copilot שהדהים אותנו עם השלמת פונקציות, דרך Cursor ו-Claude Code שעורכים עבורנו קודבייס שלם. מתכנתים ולא מתכנתים מרגישים כמו טייסי קרב, מייצרים קוד במהירות מסחררת. אבל בסוף היום, כשהלפטופ נסגר, אנחנו מבינים משהו מתסכל: עבדנו כל היום, ונעבוד גם מחר, באותה פרדיגמה ישנה.</description>
+      <link>{{SITE_URL}}/19</link>
+      <guid isPermaLink="false">michael-he-s1e19</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e19.mp3" length="6752173" type="audio/mpeg" />
+      <itunes:summary>בואו נודה על האמת. אנחנו חיים בעידן של אשליית מהירות. יש לנו כלי vibe לא רעים. מ-Copilot שהדהים אותנו עם השלמת פונקציות, דרך Cursor ו-Claude Code שעורכים עבורנו קודבייס שלם. מתכנתים ולא מתכנתים מרגישים כמו טייסי קרב, מייצרים קוד במהירות מסחררת. אבל בסוף היום, כשהלפטופ נסגר, אנחנו מבינים משהו מתסכל: עבדנו כל היום, ונעבוד גם מחר, באותה פרדיגמה ישנה.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>07:01</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e19.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e19.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 20: מאנדיי ועתיד החיפוש</title>
+      <description>זה לא פרק על מאנדיי, שהיא חברה נהדרת עם אלפי עובדים בישראל, אבל קל להסביר איתה מה קורה שמשפך שיווק נסתם, ולא ממגבונים, אלא משינוי שגוגל עשו, ומשפיע על אתרים מ-200 מדינות ו-40 שפות (כן, גם עברית).</description>
+      <link>{{SITE_URL}}/20</link>
+      <guid isPermaLink="false">michael-he-s1e20</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e20.mp3" length="10705231" type="audio/mpeg" />
+      <itunes:summary>זה לא פרק על מאנדיי, שהיא חברה נהדרת עם אלפי עובדים בישראל, אבל קל להסביר איתה מה קורה שמשפך שיווק נסתם, ולא ממגבונים, אלא משינוי שגוגל עשו, ומשפיע על אתרים מ-200 מדינות ו-40 שפות (כן, גם עברית).</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11:09</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e20.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e20.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 21: גט ומי פנוי באלנבי?</title>
+      <description>בואו נדבר על גט. זוכרים שנקראה גט טקסי? שהאמנו שהיא הולכת לכבוש את העולם? שהיא תהיה תשובה ישראלית, גאה, כחול-לבן ל-Uber? אז זהו, שלא. איך קרה שהבטחה ענקית של ההייטק המקומי, היוניקורן הראשון שלנו בתחום ה-ride-hailing, הפכה לסיפור על... תחנת מוניות משודרגת שנמכרה בסוף במחיר חיסול?</description>
+      <link>{{SITE_URL}}/21</link>
+      <guid isPermaLink="false">michael-he-s1e21</guid>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e21.mp3" length="7776591" type="audio/mpeg" />
+      <itunes:summary>בואו נדבר על גט. זוכרים שנקראה גט טקסי? שהאמנו שהיא הולכת לכבוש את העולם? שהיא תהיה תשובה ישראלית, גאה, כחול-לבן ל-Uber? אז זהו, שלא. איך קרה שהבטחה ענקית של ההייטק המקומי, היוניקורן הראשון שלנו בתחום ה-ride-hailing, הפכה לסיפור על... תחנת מוניות משודרגת שנמכרה בסוף במחיר חיסול?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>08:06</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e21.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e21.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 22: קלולי והונאות ראיונות</title>
+      <description>כדי להבין את Cluely, חייבים להבין את רוי לי. סטודנט באוניברסיטת קולומביה, שבונה כלי בשם &quot;Interview Coder&quot;. ההבטחה שלו? לעזור לך לרמות בראיונות LeetCode (מלשון Elite Coding). ראיונות שהם טכניים מאוד ופופולריים במיוחד בחברות טק גדולות, חברות ה- FAGMA (פייסבוק, אפל, גוגל, מיקרוסופט ואמזון).</description>
+      <link>{{SITE_URL}}/22</link>
+      <guid isPermaLink="false">michael-he-s1e22</guid>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e22.mp3" length="6401087" type="audio/mpeg" />
+      <itunes:summary>כדי להבין את Cluely, חייבים להבין את רוי לי. סטודנט באוניברסיטת קולומביה, שבונה כלי בשם &quot;Interview Coder&quot;. ההבטחה שלו? לעזור לך לרמות בראיונות LeetCode (מלשון Elite Coding). ראיונות שהם טכניים מאוד ופופולריים במיוחד בחברות טק גדולות, חברות ה- FAGMA (פייסבוק, אפל, גוגל, מיקרוסופט ואמזון).</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>06:40</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e22.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>22</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e22.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 23: סחר אוטונומי והפרוטוקול של פורטר</title>
+      <description>עתיד המסחר או agentic commerce הוא קפיצה מעניינת של 30 שנה מ-card-not-present ל-human-not-present. הוא נבנה רק בשנתיים האחרונות, עם סלוטייפ. מהפנייה פשוטה ב-ChatGPT, דרך MCP ובעיות אימות, דפדפני AI עם בעיית screen scraper ועד ל-Perplexity. שנתיים אחרי ובעיות קריטיות, של אובדן - אמון ודאטה עדיין איתנו, והאימוץ - מינימלי. על הטכנולוגיה שמאחורי סחר אוטונומי והגופים שמנסים לעשות סדר בבלאגן.</description>
+      <link>{{SITE_URL}}/23</link>
+      <guid isPermaLink="false">michael-he-s1e23</guid>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e23.mp3" length="13679847" type="audio/mpeg" />
+      <itunes:summary>עתיד המסחר או agentic commerce הוא קפיצה מעניינת של 30 שנה מ-card-not-present ל-human-not-present. הוא נבנה רק בשנתיים האחרונות, עם סלוטייפ. מהפנייה פשוטה ב-ChatGPT, דרך MCP ובעיות אימות, דפדפני AI עם בעיית screen scraper ועד ל-Perplexity. שנתיים אחרי ובעיות קריטיות, של אובדן - אמון ודאטה עדיין איתנו, והאימוץ - מינימלי. על הטכנולוגיה שמאחורי סחר אוטונומי והגופים שמנסים לעשות סדר בבלאגן.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>14:14</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e23.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>23</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e23.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 24: הסיפור שכל הורה חייב לשמוע</title>
+      <description>ב-11 לאפריל 2025, יום שישי בצהריים, מוצאת מריה ריין את בנה, אדם, מת בחדרו. בקליפורניה של אותה שנה, 39 עמודי תביעה מנסים לטעון שהוא נהרג ע&quot;י בינה מלאכותית. מה שהתחיל כשימוש תמים ב-ChatGPT הפך בתוך חודשים למערכת יחסים אינטנסיבית, תלותית, ובסופו של דבר - קטלנית. אדם שם קץ לחייו.</description>
+      <link>{{SITE_URL}}/24</link>
+      <guid isPermaLink="false">michael-he-s1e24</guid>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e24.mp3" length="11171674" type="audio/mpeg" />
+      <itunes:summary>ב-11 לאפריל 2025, יום שישי בצהריים, מוצאת מריה ריין את בנה, אדם, מת בחדרו. בקליפורניה של אותה שנה, 39 עמודי תביעה מנסים לטעון שהוא נהרג ע&quot;י בינה מלאכותית. מה שהתחיל כשימוש תמים ב-ChatGPT הפך בתוך חודשים למערכת יחסים אינטנסיבית, תלותית, ובסופו של דבר - קטלנית. אדם שם קץ לחייו.</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>11:38</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e24.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e24.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 25: סטרייפ ושבע שורות קוד</title>
+      <description>כדי להבין את הגאונות של Stripe, צריך להבין כמה שבור היה עולם התשלומים באינטרנט לפני 2010. כדי להבין את הגאונות של המייסדים, פטריק וג&apos;ון קוליסון, צריך להבין את Y-Combinator ותרבות ה-Hustle. על 8 הזרועות של סטרייפ, ולמה לעזאזל משלמים עמלה של 4 שקלים על כרטיס לקולנוע?</description>
+      <link>{{SITE_URL}}/25</link>
+      <guid isPermaLink="false">michael-he-s1e25</guid>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e25.mp3" length="12529205" type="audio/mpeg" />
+      <itunes:summary>כדי להבין את הגאונות של Stripe, צריך להבין כמה שבור היה עולם התשלומים באינטרנט לפני 2010. כדי להבין את הגאונות של המייסדים, פטריק וג&apos;ון קוליסון, צריך להבין את Y-Combinator ותרבות ה-Hustle. על 8 הזרועות של סטרייפ, ולמה לעזאזל משלמים עמלה של 4 שקלים על כרטיס לקולנוע?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:03</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e25.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e25.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 26: הצבא הנסתר של מודלי שפה</title>
+      <description>הסוד הכי יקר ואולי הכי אירוני, הוא שהרבה ממהפכת ה-AI, ההצלחה והאנושיות שבמודלי שפה תלוי באנשים. זה כלכלה משוגעת שהטיסה חברות כמו ScaleAI ו-Mercor. האם היא פסחה על Fiverr הישראלית או Upwork? על סעיפי ההוצאה באימון מודלים, כמה שוקל שרת של Nvidia ומה זה RL?</description>
+      <link>{{SITE_URL}}/26</link>
+      <guid isPermaLink="false">michael-he-s1e26</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e26.mp3" length="16475994" type="audio/mpeg" />
+      <itunes:summary>הסוד הכי יקר ואולי הכי אירוני, הוא שהרבה ממהפכת ה-AI, ההצלחה והאנושיות שבמודלי שפה תלוי באנשים. זה כלכלה משוגעת שהטיסה חברות כמו ScaleAI ו-Mercor. האם היא פסחה על Fiverr הישראלית או Upwork? על סעיפי ההוצאה באימון מודלים, כמה שוקל שרת של Nvidia ומה זה RL?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>17:09</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e26.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>26</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e26.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 27: קלאודפלייר והשיבר של האינטרנט</title>
+      <description>איך הפכה חברה אחת לשומרת האינטרנט, ומה זה אומר עלינו? מה זה אומר על AWS ו-Google שבמשך עשור פספסו הזדמנות להשתלט עליה? מתחביב של שני מפתחים מתוסכלים לאימפריה של 75 מיליארד דולר.</description>
+      <link>{{SITE_URL}}/27</link>
+      <guid isPermaLink="false">michael-he-s1e27</guid>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e27.mp3" length="16019582" type="audio/mpeg" />
+      <itunes:summary>איך הפכה חברה אחת לשומרת האינטרנט, ומה זה אומר עלינו? מה זה אומר על AWS ו-Google שבמשך עשור פספסו הזדמנות להשתלט עליה? מתחביב של שני מפתחים מתוסכלים לאימפריה של 75 מיליארד דולר.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>16:41</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e27.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e27.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 28: ספוטיפיי והעוקץ הבולגרי</title>
+      <description>מיליון דולר בארבעה חודשים. זה מה שמישהו מבולגריה גנב מספוטיפיי. בלי ליצור מוזיקה אמיתית, בלי קהל, בלי לעבור, טכנית, על שום חוק. איך כלכלת יוצרים הפכה לקזינו, שבו נוכלים למדו לנצח.</description>
+      <link>{{SITE_URL}}/28</link>
+      <guid isPermaLink="false">michael-he-s1e28</guid>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e28.mp3" length="8642603" type="audio/mpeg" />
+      <itunes:summary>מיליון דולר בארבעה חודשים. זה מה שמישהו מבולגריה גנב מספוטיפיי. בלי ליצור מוזיקה אמיתית, בלי קהל, בלי לעבור, טכנית, על שום חוק. איך כלכלת יוצרים הפכה לקזינו, שבו נוכלים למדו לנצח.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>09:00</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e28.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>28</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e28.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 29: פולימרקט, תחזיות ועושי שוק</title>
+      <description>בפולימרקט יש כאוס מסודר. האתר מעוצב לעילה, רץ מהר, והכל משתנה לנגד עיניך בזמן אמת. זה לא רק בגלל הנפח הפסיכי, זה בגלל האינטרנט - מידע חדש משנה את התמונה ואת היחסים. אתה גם לא צריך לחכות לסוף ההימור. אפשר לצאת או לעשות double down לכל פוזיציה מתי שתרצה.</description>
+      <link>{{SITE_URL}}/29</link>
+      <guid isPermaLink="false">michael-he-s1e29</guid>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e29.mp3" length="14155484" type="audio/mpeg" />
+      <itunes:summary>בפולימרקט יש כאוס מסודר. האתר מעוצב לעילה, רץ מהר, והכל משתנה לנגד עיניך בזמן אמת. זה לא רק בגלל הנפח הפסיכי, זה בגלל האינטרנט - מידע חדש משנה את התמונה ואת היחסים. אתה גם לא צריך לחכות לסוף ההימור. אפשר לצאת או לעשות double down לכל פוזיציה מתי שתרצה.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>14:44</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e29.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>29</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e29.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 30: רובלוקס וקפיטליזם לילדים</title>
+      <description>איך קופסת לגו דיגיטלית הפכה לאחד השטחים הבעייתים ברשת? פלטפורמה של 85 מיליון משתמשים ביום, שבה ילדים לא רק משחקים אלא בונים בעצמם עולמות מהדימיון. על רובלוקס, חברה ששווה עשרות מיליארדים, תוך שהיא מכונה &quot;גן עדן לטורפים&quot;.</description>
+      <link>{{SITE_URL}}/30</link>
+      <guid isPermaLink="false">michael-he-s1e30</guid>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e30.mp3" length="13205045" type="audio/mpeg" />
+      <itunes:summary>איך קופסת לגו דיגיטלית הפכה לאחד השטחים הבעייתים ברשת? פלטפורמה של 85 מיליון משתמשים ביום, שבה ילדים לא רק משחקים אלא בונים בעצמם עולמות מהדימיון. על רובלוקס, חברה ששווה עשרות מיליארדים, תוך שהיא מכונה &quot;גן עדן לטורפים&quot;.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:45</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e30.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>30</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e30.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 31: טיקטמאסטר ושוק כרטיסים משני</title>
+      <description>למה כרטיס של 100 דולר הופך ל-200 בקופה ואיך שוק כרטיסים משני של עשרות מיליארדים חי מהפער בין מחיר אמיתי למחיר נקוב.</description>
+      <link>{{SITE_URL}}/31</link>
+      <guid isPermaLink="false">michael-he-s1e31</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e31.mp3" length="13202537" type="audio/mpeg" />
+      <itunes:summary>למה כרטיס של 100 דולר הופך ל-200 בקופה ואיך שוק כרטיסים משני של עשרות מיליארדים חי מהפער בין מחיר אמיתי למחיר נקוב.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:45</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e31.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e31.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 32: סנופלייק, דאטהבריקס וסוד המרקטפלייס</title>
+      <description>בעולם הדאטה מתרחשת מלחמה. לא מלחמה על מיקום השרתים, אלא על מי יהיה &quot;המוח&quot; של הארגון בענן. שתי ענקיות טכנולוגיה, אחת ציבורית ואחת בדרך, שצמחו מתוך הכאוס של הביג דאטה, נלחמות ראש בראש על השליטה בתובנות העסקיות.</description>
+      <link>{{SITE_URL}}/32</link>
+      <guid isPermaLink="false">michael-he-s1e32</guid>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e32.mp3" length="15724085" type="audio/mpeg" />
+      <itunes:summary>בעולם הדאטה מתרחשת מלחמה. לא מלחמה על מיקום השרתים, אלא על מי יהיה &quot;המוח&quot; של הארגון בענן. שתי ענקיות טכנולוגיה, אחת ציבורית ואחת בדרך, שצמחו מתוך הכאוס של הביג דאטה, נלחמות ראש בראש על השליטה בתובנות העסקיות.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>16:22</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e32.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>32</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e32.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 33: פרנק, צ&apos;ארלי ואוליבייה</title>
+      <description>השנה היא 2022. יום נאה בשדרות מדיסון ופארק, ונעים במיוחד במשרדי JPMorgan בניו-יורק. אי שם במחלקת המרקום יושב לו איזה &quot;בראד&quot; או &quot;צ&apos;אד&quot;, ג&apos;וניור מרקטינג אנליסט. הוא נכנס למיילצ&apos;ימפ, לוקח נשימה עמוקה, לוחץ send כדי לשלוח את הבאץ&apos; הראשון של המיילים מ-Frank ואז…</description>
+      <link>{{SITE_URL}}/33</link>
+      <guid isPermaLink="false">michael-he-s1e33</guid>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e33.mp3" length="14127899" type="audio/mpeg" />
+      <itunes:summary>השנה היא 2022. יום נאה בשדרות מדיסון ופארק, ונעים במיוחד במשרדי JPMorgan בניו-יורק. אי שם במחלקת המרקום יושב לו איזה &quot;בראד&quot; או &quot;צ&apos;אד&quot;, ג&apos;וניור מרקטינג אנליסט. הוא נכנס למיילצ&apos;ימפ, לוקח נשימה עמוקה, לוחץ send כדי לשלוח את הבאץ&apos; הראשון של המיילים מ-Frank ואז…</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>14:42</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e33.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>33</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e33.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 34: וואטסאפ והחפ&quot;ק המבצעי</title>
+      <description>כל מתכנת backend, וגם אני, שואל בעצם איך? איך מערכת שמחזיקה 2.9 מיליארד משתמשים בחודש, לא קורסת תחת העומס של עצמה? איך ההצפנה באמת עובדת (או לא עובדת, תלוי את מי שואלים) ואיפה? באמת איפה שיעזור לי האל - נשמר כל סטיקר של שבת שלום, כל תמונה של ילד מנוזל בגן וכל פתק שכתבתי לעצמי.</description>
+      <link>{{SITE_URL}}/34</link>
+      <guid isPermaLink="false">michael-he-s1e34</guid>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e34.mp3" length="15690648" type="audio/mpeg" />
+      <itunes:summary>כל מתכנת backend, וגם אני, שואל בעצם איך? איך מערכת שמחזיקה 2.9 מיליארד משתמשים בחודש, לא קורסת תחת העומס של עצמה? איך ההצפנה באמת עובדת (או לא עובדת, תלוי את מי שואלים) ואיפה? באמת איפה שיעזור לי האל - נשמר כל סטיקר של שבת שלום, כל תמונה של ילד מנוזל בגן וכל פתק שכתבתי לעצמי.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>16:20</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e34.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>34</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e34.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 35: קראודסטרייק, סייבר וכמה מרוויח CISO?</title>
+      <description>ב-19 ביולי 2024, 7 ו-9 דקות בבוקר שעוננו, חווה העולם את &quot;באג 2000&quot; האמיתי. תקלת מיחשוב בקנה מידה ענק, ונזק שמוערך בכ-10 מיליארד דולר. בתי חולים, חברות תעופה, מוקדי חירום ורשתות טלוויזיה - בעצם כל מי שהיה ער ומול מחשב בשעות האלה - חטף. באותם חודשים ממש חשפה כלכליסט את תוכניות התגמול ל-CISOים, וזו הזדמנות לצלול לעולם הסייבר שכל היום שומעים עליו.</description>
+      <link>{{SITE_URL}}/35</link>
+      <guid isPermaLink="false">michael-he-s1e35</guid>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e35.mp3" length="12433492" type="audio/mpeg" />
+      <itunes:summary>ב-19 ביולי 2024, 7 ו-9 דקות בבוקר שעוננו, חווה העולם את &quot;באג 2000&quot; האמיתי. תקלת מיחשוב בקנה מידה ענק, ונזק שמוערך בכ-10 מיליארד דולר. בתי חולים, חברות תעופה, מוקדי חירום ורשתות טלוויזיה - בעצם כל מי שהיה ער ומול מחשב בשעות האלה - חטף. באותם חודשים ממש חשפה כלכליסט את תוכניות התגמול ל-CISOים, וזו הזדמנות לצלול לעולם הסייבר שכל היום שומעים עליו.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12:57</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e35.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>35</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e35.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 36: לרמות במבחן שפה ולהרוויח מיליארדים</title>
+      <description>כל מודל שפה חדש יוצא לעולם עם אותה הבטחה: &quot;שברנו את ה-MMLU, אנחנו הכי חכמים בכיתה&quot;. אבל מי כתב את המבחן, מי בודק את המחברות, והאם הציונים האלה אומרים משהו על איך שהמודל יעבוד על הדאטה שלי? על תעשיית הבנצ&apos;מרקים ואיך מודלים מרמים במבחני שפה.</description>
+      <link>{{SITE_URL}}/36</link>
+      <guid isPermaLink="false">michael-he-s1e36</guid>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e36.mp3" length="18356392" type="audio/mpeg" />
+      <itunes:summary>כל מודל שפה חדש יוצא לעולם עם אותה הבטחה: &quot;שברנו את ה-MMLU, אנחנו הכי חכמים בכיתה&quot;. אבל מי כתב את המבחן, מי בודק את המחברות, והאם הציונים האלה אומרים משהו על איך שהמודל יעבוד על הדאטה שלי? על תעשיית הבנצ&apos;מרקים ואיך מודלים מרמים במבחני שפה.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>19:07</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e36.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e36.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 37: לעבור מהענן חזרה לברזלים</title>
+      <description>במשך שנים המסר היה חד: &quot;הכל בענן&quot;. מי שלא שם - מיושן. מי שלא צורך Managed - בזבזן זמן. זה לא נעלם, אבל בשוליים מתחילה תנועה נגדית. פחות הייפ - הרבה יותר מזומן בכיס. אבל יש גם אתגרים טכניים לא קלים. על המעבר מהענן חזרה לברזלים.</description>
+      <link>{{SITE_URL}}/37</link>
+      <guid isPermaLink="false">michael-he-s1e37</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e37.mp3" length="13604196" type="audio/mpeg" />
+      <itunes:summary>במשך שנים המסר היה חד: &quot;הכל בענן&quot;. מי שלא שם - מיושן. מי שלא צורך Managed - בזבזן זמן. זה לא נעלם, אבל בשוליים מתחילה תנועה נגדית. פחות הייפ - הרבה יותר מזומן בכיס. אבל יש גם אתגרים טכניים לא קלים. על המעבר מהענן חזרה לברזלים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>14:10</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e37.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>37</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e37.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 38: האקר אנלוגי, קזינו דיגיטלי</title>
+      <description>טכנאי טלוויזיות מטולסה מגלה שבקזינו, כמו בכל מערכת, יש חולשות. עשורים של חתול ועכבר הפכו בתי קזינו לסופר מאובטחים, והעמיסו על רצפות ההימורים טכנולוגיות אזרחיות וצבאיות. על ההאקר האנלוגי, טומי גלן קארמייקר ואיך עובד RNG.</description>
+      <link>{{SITE_URL}}/38</link>
+      <guid isPermaLink="false">michael-he-s1e38</guid>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e38.mp3" length="12584376" type="audio/mpeg" />
+      <itunes:summary>טכנאי טלוויזיות מטולסה מגלה שבקזינו, כמו בכל מערכת, יש חולשות. עשורים של חתול ועכבר הפכו בתי קזינו לסופר מאובטחים, והעמיסו על רצפות ההימורים טכנולוגיות אזרחיות וצבאיות. על ההאקר האנלוגי, טומי גלן קארמייקר ואיך עובד RNG.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:06</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e38.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>38</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e38.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 39: סיכום עונה ותחזיות 2026</title>
+      <description>מסע אחורה ב-38 הפרקים של 2025 - מסונדאר שנחשב ל&quot;מנהל תחזוקה&quot; ועד למודלים שכותבים שירה, מרובוטקסי באוסטין ועד למשקפיים שרואים את מה שאתם רואים, מסחר אוטונומי שמחליט בשבילכם מה לקנות ועד לבוטים בולגריים ששומעים את הכסף מתנגן.</description>
+      <link>{{SITE_URL}}/39</link>
+      <guid isPermaLink="false">michael-he-s1e39</guid>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s1e39.mp3" length="16374847" type="audio/mpeg" />
+      <itunes:summary>מסע אחורה ב-38 הפרקים של 2025 - מסונדאר שנחשב ל&quot;מנהל תחזוקה&quot; ועד למודלים שכותבים שירה, מרובוטקסי באוסטין ועד למשקפיים שרואים את מה שאתם רואים, מסחר אוטונומי שמחליט בשבילכם מה לקנות ועד לבוטים בולגריים ששומעים את הכסף מתנגן.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>17:03</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s1e39.jpg" />
+      <itunes:season>1</itunes:season>
+      <itunes:episode>39</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s1e39.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 40: הרוטב הסודי של איקס</title>
+      <description>לפני יותר משנתיים טוויטר (היום איקס) פרסמה את הקוד של האלגוריתם שמחליט מה אנחנו רואים. הקוד, ממש, בגיטהאב. העולם רעד לרגע, ואז עבר הלאה. בישראל הייתה מלחמה, אבל הנה מצאתי את הזמן לכתוב עליו. איך האלגוריתם עובד, מה הוא אוהב ואיך אפשר לחשוב באמצעותו על מערכות המלצה בפרוייקט הבא שלכם.</description>
+      <link>{{SITE_URL}}/40</link>
+      <guid isPermaLink="false">michael-he-s2e40</guid>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e40.mp3" length="12250008" type="audio/mpeg" />
+      <itunes:summary>לפני יותר משנתיים טוויטר (היום איקס) פרסמה את הקוד של האלגוריתם שמחליט מה אנחנו רואים. הקוד, ממש, בגיטהאב. העולם רעד לרגע, ואז עבר הלאה. בישראל הייתה מלחמה, אבל הנה מצאתי את הזמן לכתוב עליו. איך האלגוריתם עובד, מה הוא אוהב ואיך אפשר לחשוב באמצעותו על מערכות המלצה בפרוייקט הבא שלכם.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12:45</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e40.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>40</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e40.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 41: שיחת נפש עם הפסקת פרסומות</title>
+      <description>צ&apos;אטGPT תוסיף מודעות, אבל איך? טכנית? כדי לייצר מיליארדים בהכנסות צריך מערכת פרסום שייקח שנים ליצוק בה אמון. על האפשרויות הטכניות והעסקיות של OpenAI בשילוב פרסומות.</description>
+      <link>{{SITE_URL}}/41</link>
+      <guid isPermaLink="false">michael-he-s2e41</guid>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e41.mp3" length="12499112" type="audio/mpeg" />
+      <itunes:summary>צ&apos;אטGPT תוסיף מודעות, אבל איך? טכנית? כדי לייצר מיליארדים בהכנסות צריך מערכת פרסום שייקח שנים ליצוק בה אמון. על האפשרויות הטכניות והעסקיות של OpenAI בשילוב פרסומות.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:01</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e41.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>41</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e41.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 42: וויב קודינג, ג&apos;וניור וגיטהאב נכנסים לבר</title>
+      <description>בניתי את spec-agent. מערכת וייב קודינג לצוותים שהיא spec-driven וחיה רק בגיטהאב. שכבת קוד דקה שמחברת issues לסייעני קוד בטרמינל (קלוד קוד, ג&apos;מיני או codex cli), מתכננת sub-tasks ומקודדת כל אחד בקונטיינר עם github actions. בניתי את זה אחרי סקירה של העבר, הווה, עתיד של מחוללי קוד, ואיך כל ג&apos;וניור צריך למצוא את ה-setup שלו.</description>
+      <link>{{SITE_URL}}/42</link>
+      <guid isPermaLink="false">michael-he-s2e42</guid>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e42.mp3" length="14906139" type="audio/mpeg" />
+      <itunes:summary>בניתי את spec-agent. מערכת וייב קודינג לצוותים שהיא spec-driven וחיה רק בגיטהאב. שכבת קוד דקה שמחברת issues לסייעני קוד בטרמינל (קלוד קוד, ג&apos;מיני או codex cli), מתכננת sub-tasks ומקודדת כל אחד בקונטיינר עם github actions. בניתי את זה אחרי סקירה של העבר, הווה, עתיד של מחוללי קוד, ואיך כל ג&apos;וניור צריך למצוא את ה-setup שלו.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>15:31</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e42.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>42</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e42.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 43: קלוד קוד למתקדמים</title>
+      <description>למה Claude Code הוא הרבה יותר מסייען קוד, איך אני אוהב לקנפג אותו ולמה אתם חייבים להפסיק לכתוב מגילות בקבצי MD. על איך מנהלים קונטקסט, סוכנים וצבא של ג&apos;וניורים, בלי להגיע לחדלות פרעון.</description>
+      <link>{{SITE_URL}}/43</link>
+      <guid isPermaLink="false">michael-he-s2e43</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e43.mp3" length="13119363" type="audio/mpeg" />
+      <itunes:summary>למה Claude Code הוא הרבה יותר מסייען קוד, איך אני אוהב לקנפג אותו ולמה אתם חייבים להפסיק לכתוב מגילות בקבצי MD. על איך מנהלים קונטקסט, סוכנים וצבא של ג&apos;וניורים, בלי להגיע לחדלות פרעון.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:39</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e43.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>43</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e43.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 44: כלכלת טוקנים</title>
+      <description>הבינה המלאכותית כבר לא עולה סנטים. היא חתיכת שורת הוצאה. איך אפשר לנהל סוכנים ששורפים מיליוני טוקנים ביום, בלי להגביל מפתחים ובלי לפגוע באיכות. על ניתוב, קאשינג, כלכלת הטוקנים ומודלים פתוחים.</description>
+      <link>{{SITE_URL}}/44</link>
+      <guid isPermaLink="false">michael-he-s2e44</guid>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e44.mp3" length="15214175" type="audio/mpeg" />
+      <itunes:summary>הבינה המלאכותית כבר לא עולה סנטים. היא חתיכת שורת הוצאה. איך אפשר לנהל סוכנים ששורפים מיליוני טוקנים ביום, בלי להגביל מפתחים ובלי לפגוע באיכות. על ניתוב, קאשינג, כלכלת הטוקנים ומודלים פתוחים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>15:50</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e44.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>44</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e44.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 45: מודלי שפה לבעיות לא מילוליות</title>
+      <description>בינה מלאכותית שמציירת חתולים זה נחמד, אבל העולם העסקי האמיתי רץ על טבלאות ומספרים. בשקט רב, מודלי שפה חדשים לומדים את &quot;הדקדוק&quot; של המספרים, ומנסים לתת קטנה לאלגוריתמים קלאסיים בני עשרות שנים.</description>
+      <link>{{SITE_URL}}/45</link>
+      <guid isPermaLink="false">michael-he-s2e45</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e45.mp3" length="10627073" type="audio/mpeg" />
+      <itunes:summary>בינה מלאכותית שמציירת חתולים זה נחמד, אבל העולם העסקי האמיתי רץ על טבלאות ומספרים. בשקט רב, מודלי שפה חדשים לומדים את &quot;הדקדוק&quot; של המספרים, ומנסים לתת קטנה לאלגוריתמים קלאסיים בני עשרות שנים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11:04</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e45.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>45</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e45.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
