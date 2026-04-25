@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Wed, 08 Apr 2026 20:12:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 16:58:11 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -799,6 +799,22 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e45.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 46: ההתרסקות של אוברון מדיה</title>
+      <description>איך חברה ישראלית, עם מייסדים ישראלים, מרכז פיתוח בישראל, כסף של וול סטריט, שותפויות עם חצי אינטרנט וחלומות IPO של 10 ספרות נמכרת במכירת חיסול?</description>
+      <link>{{SITE_URL}}/46</link>
+      <guid isPermaLink="false">michael-he-s2e46</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e46.mp3" length="18395611" type="audio/mpeg" />
+      <itunes:summary>איך חברה ישראלית, עם מייסדים ישראלים, מרכז פיתוח בישראל, כסף של וול סטריט, שותפויות עם חצי אינטרנט וחלומות IPO של 10 ספרות נמכרת במכירת חיסול?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12:45</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e46.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>46</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
     </item>
   </channel>
 </rss>
