@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 25 Apr 2026 16:58:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 17:19:52 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -815,6 +815,7 @@
       <itunes:episode>46</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e46.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
