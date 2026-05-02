@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 25 Apr 2026 17:19:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 08:11:17 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -816,6 +816,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e46.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פרק 47: כריית ביטקוין במיליונים</title>
+      <description>איך 3 ישראלים והולנדי אחד בנו מכונה לכריית ביטקוין בלי gpu, בלי מאוורר, בלי לשלם ולו חשבון חשמל אחד.</description>
+      <link>{{SITE_URL}}/47</link>
+      <guid isPermaLink="false">michael-he-s2e47</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e47.mp3" length="20873240" type="audio/mpeg" />
+      <itunes:summary>איך 3 ישראלים והולנדי אחד בנו מכונה לכריית ביטקוין בלי gpu, בלי מאוורר, בלי לשלם ולו חשבון חשמל אחד.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>14:28</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e47.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>47</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e47.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
