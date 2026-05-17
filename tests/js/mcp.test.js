@@ -2,7 +2,7 @@
 // Pins orank-relevant behavior: initialize handshake (with OAuth metadata),
 // tools/list shape, tools/call argument validation, parameter schemas.
 
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, beforeAll } from "vitest";
 import { handleMcpPost, TOOLS, SERVER_INFO, PROTOCOL_VERSION } from "../../functions/mcp.js";
 
 const BASE = "https://example.test";
@@ -143,6 +143,45 @@ describe("tools/call validation", () => {
     });
     expect(r.result.isError).toBe(false);
     expect(Array.isArray(r.result.content)).toBe(true);
+  });
+});
+
+describe("MCP App view CSP (resources/read)", () => {
+  let html;
+  beforeAll(async () => {
+    const r = await rpcJson({
+      jsonrpc: "2.0",
+      id: 20,
+      method: "resources/read",
+      params: { uri: "ui://catalog" },
+    });
+    html = r.result.contents[0].text;
+  });
+
+  it("ships a Content-Security-Policy meta tag", () => {
+    expect(html).toMatch(
+      /<meta http-equiv="Content-Security-Policy" content="[^"]+"/
+    );
+  });
+
+  it("uses a scoped policy — no permissive bare wildcard", () => {
+    const csp = html.match(/content="([^"]+)"/)[1].replace(/&#39;/g, "'");
+    expect(csp).toMatch(/default-src 'none'/);
+    // A bare `*` source is permissive and loses orank points; a scoped
+    // subdomain wildcard like `*.googletagmanager.com` (GA) is fine.
+    expect(csp).not.toMatch(/(^|[\s;])\*([\s;]|$)/);
+  });
+
+  it("scopes connect-src/img-src to the MCP server origin", () => {
+    const csp = html.match(/content="([^"]+)"/)[1].replace(/&#39;/g, "'");
+    expect(csp).toMatch(/connect-src[^;]*https:\/\/example\.test/);
+    expect(csp).toMatch(/img-src[^;]*https:\/\/example\.test/);
+  });
+
+  it("allows framing only by ChatGPT and Claude", () => {
+    const csp = html.match(/content="([^"]+)"/)[1].replace(/&#39;/g, "'");
+    expect(csp).toMatch(/frame-ancestors[^;]*https:\/\/chatgpt\.com/);
+    expect(csp).toMatch(/frame-ancestors[^;]*https:\/\/claude\.ai/);
   });
 });
 
