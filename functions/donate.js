@@ -121,19 +121,23 @@ export async function onRequest({ request }) {
   const info = paymentInfo(baseUrl);
   const requirements = x402PaymentRequirements(baseUrl, info);
 
-  // x402 protocol: if the client returns with an X-Payment header (the
-  // payment payload from a prior 402), acknowledge with 200. We don't
-  // verify on-chain settlement here — that's the facilitator's job — but
-  // matching the protocol shape (200 on retry-with-payment, 402 otherwise)
-  // closes the spec/impl gap that audits flag.
-  const paymentHeader = request.headers.get("X-Payment") || request.headers.get("x-payment");
+  // Payment retry → 200. Both protocols carry the prior-402 payload in a
+  // request header: x402 uses `X-Payment`, MPP (Machine Payment Protocol)
+  // uses `Payment`. We don't verify on-chain settlement here — that's the
+  // facilitator's job — but matching the protocol shape (200 on
+  // retry-with-payment, 402 otherwise) closes the spec/impl gap audits flag.
+  const x402Payment = request.headers.get("X-Payment");
+  const mppPayment = request.headers.get("Payment");
+  const paymentHeader = x402Payment || mppPayment;
   if (paymentHeader) {
+    const protocol = x402Payment ? "x402" : "mpp";
     const ackBody = {
       paid: true,
       settled: false,
+      protocol,
       message: `Thank you for supporting ${config.title || "this podcast"}!`,
       verification: {
-        protocol: "x402",
+        protocol,
         facilitator: `${baseUrl}/.well-known/x402/supported`,
         note: "Receipt acknowledged; on-chain settlement is verified by the facilitator.",
       },
@@ -160,8 +164,11 @@ export async function onRequest({ request }) {
       alternativePayments: [
         {
           // Machine Payment Protocol — same stablecoin rail; advertised
-          // explicitly so MPP-only clients see it.
+          // explicitly so MPP-only clients see it. intent/method/amount/
+          // currency mirror the x-payment-info discovery in /openapi.json.
           type: "mpp",
+          intent: "charge",
+          method: "tempo",
           scheme: "stablecoin",
           asset: info.asset,
           network: info.network,
@@ -187,15 +194,23 @@ export async function onRequest({ request }) {
   // (matches the v2 wire format spree.commerce uses, which orank validates
   // cleanly). X-Payment-Protocol announces the schema version.
   const x402Payload = { x402Version: requirements.x402Version, accepts: requirements.accepts, error: requirements.error };
-  // `btoa` only accepts Latin-1; the podcast title can contain Hebrew or
-  // other non-ASCII chars via `description`. Round-trip through TextEncoder
-  // so the header is always valid Base64.
-  const x402Bytes = new TextEncoder().encode(JSON.stringify(x402Payload));
+  const x402Json = JSON.stringify(x402Payload);
+  // HTTP header values are Latin-1 (ByteString) only, but the x402 payload
+  // can carry non-ASCII via `description` (e.g. a Hebrew podcast title) —
+  // that would crash `new Headers()` and `btoa()`. PAYMENT-REQUIRED ships
+  // the UTF-8 bytes Base64-encoded; X-Payment-Required ships the same JSON
+  // with every non-ASCII char \u-escaped so it stays a valid, parseable
+  // header value.
+  const x402Bytes = new TextEncoder().encode(x402Json);
   const x402B64 = btoa(String.fromCharCode(...x402Bytes));
+  const x402JsonAscii = Array.from(x402Json, (c) => {
+    const code = c.charCodeAt(0);
+    return code < 128 ? c : "\\u" + code.toString(16).padStart(4, "0");
+  }).join("");
   const headers = new Headers(apiHeaders({
     "Cache-Control": "no-store",
     "PAYMENT-REQUIRED": x402B64,
-    "X-Payment-Required": JSON.stringify(x402Payload),
+    "X-Payment-Required": x402JsonAscii,
     "X-Payment-Protocol": requirements.x402Version === 2 ? "x402-v2" : "x402-v1",
     "Link": `<${info.docsUrl}>; rel="payment"; type="text/markdown", <${baseUrl}/.well-known/x402/supported>; rel="x402-supported"; type="application/json"`,
   }));
