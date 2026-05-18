@@ -180,6 +180,16 @@ ratings:
   apple: { rating: 5.0, reviews: 13 }
   spotify: { rating: 5.0, reviews: 31 }
 
+# -- Custom FAQ entries (optional) --
+# Question/answer pairs for the homepage JSON-LD FAQPage. If you set any,
+# they replace the built-in generic FAQs entirely. Leave commented out to
+# keep the defaults.
+# faqs:
+#   - q: "Who is this podcast for?"
+#     a: "Anyone interested in the show's topics."
+#   - q: "How often do new episodes come out?"
+#     a: "Every other week."
+
 # -- Social links --
 # Shown as icons in the site footer and included in JSON-LD sameAs.
 # Leave empty to hide.
