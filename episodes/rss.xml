@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Wed, 20 May 2026 19:13:27 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 19:32:40 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -833,6 +833,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e47.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>קולוסוס והאנרגיה של אילון מאסק</title>
+      <description>איך טסלה, ספייס איקס ואיקס בנו את מקבץ המעבדים הגדול ביותר בעולם ב-122 יום, ואיך מאסק מתכנן להוציא לפנסיה את כל חברות התוכנה.</description>
+      <link>{{SITE_URL}}/48</link>
+      <guid isPermaLink="false">michael-he-s2e48</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e48.mp3" length="11946118" type="audio/mpeg" />
+      <itunes:summary>איך טסלה, ספייס איקס ואיקס בנו את מקבץ המעבדים הגדול ביותר בעולם ב-122 יום, ואיך מאסק מתכנן להוציא לפנסיה את כל חברות התוכנה.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>08:17</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e48.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>48</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e48.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
