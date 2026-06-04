@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Thu, 04 Jun 2026 14:41:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 14:51:55 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -857,15 +857,16 @@
       <link>{{SITE_URL}}/49</link>
       <guid isPermaLink="false">michael-he-s2e49</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <enclosure url="{{SITE_URL}}/s2e49.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="{{SITE_URL}}/s2e49.mp3" length="17857160" type="audio/mpeg" />
       <itunes:summary>התרגלנו לחשוב על אתר כמו על חנות - עם ויטרינה, כפתורים, תפריטים, טקסט יפה ומוכר מנומנם. אבל מה קורה כשהלקוח בכלל לא מגיע בעצמו? על כמה שהאתר שלכם לא מוכן לסוכנים, ואיך להביא אותו לשם.</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>00:00</itunes:duration>
+      <itunes:duration>12:23</itunes:duration>
       <itunes:image href="{{SITE_URL}}/s2e49.jpg" />
       <itunes:season>2</itunes:season>
       <itunes:episode>49</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e49.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
