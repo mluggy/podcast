@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Thu, 04 Jun 2026 14:51:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 18:45:15 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -867,6 +867,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e49.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>עתיד ראיונות העבודה</title>
+      <description>ה-AI לא הולך להרוג את ראיון העבודה. הוא הולך להרוג את הראיון העצל, שבו מראיין מאלתר שאלות, לא רושם כלום, יוצא עם תחושת בטן, ואז מוכר אותה לצוות כאבחנה מקצועית.</description>
+      <link>{{SITE_URL}}/50</link>
+      <guid isPermaLink="false">michael-he-s2e50</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e50.mp3" length="19168772" type="audio/mpeg" />
+      <itunes:summary>ה-AI לא הולך להרוג את ראיון העבודה. הוא הולך להרוג את הראיון העצל, שבו מראיין מאלתר שאלות, לא רושם כלום, יוצא עם תחושת בטן, ואז מוכר אותה לצוות כאבחנה מקצועית.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:17</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e50.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>50</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e50.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
