@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 13 Jun 2026 13:14:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 13:21:15 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -891,10 +891,10 @@
       <link>{{SITE_URL}}/51</link>
       <guid isPermaLink="false">michael-he-s2e51</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <enclosure url="{{SITE_URL}}/s2e51.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="{{SITE_URL}}/s2e51.mp3" length="79099415" type="audio/mpeg" />
       <itunes:summary>יש רגעים באינטרנט שאתה מסתכל עליהם אחורה ואומר &quot;וואלה, זה היה תמים&quot;. כמו לראות תמונה שלך בג&apos;ינס סקיני ב-2005, לקרוא מייל מ-2010 או לעבור על מדריך מ-2015. היום אנחנו חוזרים לאחד הטקסטים האלה.</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>00:00</itunes:duration>
+      <itunes:duration>54:52</itunes:duration>
       <itunes:image href="{{SITE_URL}}/s2e51.jpg" />
       <itunes:season>2</itunes:season>
       <itunes:episode>51</itunes:episode>
