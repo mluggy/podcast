@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Tue, 09 Jun 2026 19:02:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 12:42:12 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -884,6 +884,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e50.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>המדריך לסטארטאפ, 11 שנה אחרי</title>
+      <description>{&apos;יש רגעים באינטרנט שאתה מסתכל עליהם אחורה ואומר&apos;: &quot;וואלה, זה היה תמים. כמו לראות תמונה שלך בג&apos;ינס סקיני ב-2005, לקרוא מייל מ-2010 או לעבור על מדריך מ-2015. היום אנחנו חוזרים לאחד הטקסטים האלה.&quot;}</description>
+      <link>{{SITE_URL}}/51</link>
+      <guid isPermaLink="false">michael-he-s2e51</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e51.mp3" length="79099415" type="audio/mpeg" />
+      <itunes:summary>{&apos;יש רגעים באינטרנט שאתה מסתכל עליהם אחורה ואומר&apos;: &quot;וואלה, זה היה תמים. כמו לראות תמונה שלך בג&apos;ינס סקיני ב-2005, לקרוא מייל מ-2010 או לעבור על מדריך מ-2015. היום אנחנו חוזרים לאחד הטקסטים האלה.&quot;}</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>54:52</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e51.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>51</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e51.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
