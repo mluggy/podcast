@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 13 Jun 2026 13:33:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 14:37:51 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -901,6 +901,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e51.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>סוכרת עם לבלב מלאכותי</title>
+      <description>הפרק הזה הוא אישי במיוחד. על טכנולוגיית הלבלב המלאכותי ואיך היא משנה את חיי חולי סכרת.</description>
+      <link>{{SITE_URL}}/52</link>
+      <guid isPermaLink="false">michael-he-s2e52</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e52.mp3" length="30221459" type="audio/mpeg" />
+      <itunes:summary>הפרק הזה הוא אישי במיוחד. על טכנולוגיית הלבלב המלאכותי ואיך היא משנה את חיי חולי סכרת.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>20:57</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e52.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>52</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e52.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
