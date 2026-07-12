@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sun, 05 Jul 2026 19:27:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 22:11:41 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -935,6 +935,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e53.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>לבנות מנוע חיפוש מושלם</title>
+      <description>חיפוש טוב הוא לא רק אלגוריתם שמוצא תוצאה. הוא שרשרת של מערכות שכל אחת מהן מקלפת סוג אחר של אי-ודאות.</description>
+      <link>{{SITE_URL}}/54</link>
+      <guid isPermaLink="false">michael-he-s2e54</guid>
+      <pubDate>Tue, 13 Jul 2027 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e54.mp3" length="27518534" type="audio/mpeg" />
+      <itunes:summary>חיפוש טוב הוא לא רק אלגוריתם שמוצא תוצאה. הוא שרשרת של מערכות שכל אחת מהן מקלפת סוג אחר של אי-ודאות.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>19:05</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e54.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>54</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e54.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
