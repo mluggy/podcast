@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Mon, 13 Jul 2026 20:32:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 15:34:06 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -952,6 +952,22 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e54.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פייבר ומה מיכה צריך לעשות</title>
+      <description>פייבר בצרות. הקונספט שהימרה עליו במשך שנים, שאיפשר לכל עסק קטן לקנות כישרון מכל מקום בעולם, מתחיל להיעלם. מה נשאר בעצם, מ-16 שנות היסטוריה, ולאן Fiverr יכולה ללכת מפה?</description>
+      <link>{{SITE_URL}}/55</link>
+      <guid isPermaLink="false">michael-he-s2e55</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e55.mp3" length="0" type="audio/mpeg" />
+      <itunes:summary>פייבר בצרות. הקונספט שהימרה עליו במשך שנים, שאיפשר לכל עסק קטן לקנות כישרון מכל מקום בעולם, מתחיל להיעלם. מה נשאר בעצם, מ-16 שנות היסטוריה, ולאן Fiverr יכולה ללכת מפה?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>14:21</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e55.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>55</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
     </item>
   </channel>
 </rss>
