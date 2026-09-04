@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 01 Aug 2026 12:07:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 16:50:26 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -969,6 +969,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e55.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>פייבר ומה מיכה צריך לעשות</title>
+      <description>אין לי את הלוגים של רכבת ישראל או התחקירים שהובילו לקריסה, לכאורה, אבל יש משהו אחר - כל היסטוריית ה-Git של בטר רייל, שמתארת כל שינוי, מי עשה אותו ולמה. אז בניתי ממנו ציר זמן.</description>
+      <link>{{SITE_URL}}/56</link>
+      <guid isPermaLink="false">michael-he-s2e56</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e56.mp3" length="27788387" type="audio/mpeg" />
+      <itunes:summary>אין לי את הלוגים של רכבת ישראל או התחקירים שהובילו לקריסה, לכאורה, אבל יש משהו אחר - כל היסטוריית ה-Git של בטר רייל, שמתארת כל שינוי, מי עשה אותו ולמה. אז בניתי ממנו ציר זמן.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>19:16</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e56.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>56</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e56.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
