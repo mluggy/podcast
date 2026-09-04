@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Fri, 04 Sep 2026 17:12:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 17:21:57 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -975,7 +975,7 @@
       <description>אין לי את הלוגים של רכבת ישראל או התחקירים שהובילו לקריסה, לכאורה, אבל יש משהו אחר - כל היסטוריית ה-Git של בטר רייל, שמתארת כל שינוי, מי עשה אותו ולמה. אז בניתי ממנו ציר זמן.</description>
       <link>{{SITE_URL}}/56</link>
       <guid isPermaLink="false">michael-he-s2e56</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
       <enclosure url="{{SITE_URL}}/s2e56.mp3" length="0" type="audio/mpeg" />
       <itunes:summary>אין לי את הלוגים של רכבת ישראל או התחקירים שהובילו לקריסה, לכאורה, אבל יש משהו אחר - כל היסטוריית ה-Git של בטר רייל, שמתארת כל שינוי, מי עשה אותו ולמה. אז בניתי ממנו ציר זמן.</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
