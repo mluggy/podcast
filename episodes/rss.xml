@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Fri, 04 Sep 2026 17:21:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:16:41 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -986,6 +986,23 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e56.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>סוכן אישי קנה לי 6 שמלות</title>
+      <description>כמה זמן יקח לכם לקנות שמלה באתר? לא להתאים אותה לנשף, לא להתלבט מול המראה, רק לקנות, את הראשונה שאתה רואים. כמה זמן יקח לסוכן לקנות את אותה שמלה? איך הוא ימצא אותה בכלל, ואיך הוא ישלם עליה?</description>
+      <link>{{SITE_URL}}/57</link>
+      <guid isPermaLink="false">michael-he-s2e57</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e57.mp3" length="24489902" type="audio/mpeg" />
+      <itunes:summary>כמה זמן יקח לכם לקנות שמלה באתר? לא להתאים אותה לנשף, לא להתלבט מול המראה, רק לקנות, את הראשונה שאתה רואים. כמה זמן יקח לסוכן לקנות את אותה שמלה? איך הוא ימצא אותה בכלל, ואיך הוא ישלם עליה?</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>16:59</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e57.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>57</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e57.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
