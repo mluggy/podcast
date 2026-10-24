@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 24 Oct 2026 12:56:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 13:08:28 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -1010,10 +1010,10 @@
       <link>{{SITE_URL}}/58</link>
       <guid isPermaLink="false">michael-he-s2e58</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="{{SITE_URL}}/s2e58.mp3" length="13951191" type="audio/mpeg" />
+      <enclosure url="{{SITE_URL}}/s2e58.mp3" length="12354035" type="audio/mpeg" />
       <itunes:summary>אנחנו חיים בעולם שבו כולם מדברים על cashless, משלמים עם Apple Pay, כמעט ולא מוציאים כרטיס פיזי, ובכל זאת מיליארדי עסקאות מזומן ממשיכות להתקיים. על עתיד המזומן, ואיך מכונה אחת עוזרת להיפרד ממנו.</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>09:40</itunes:duration>
+      <itunes:duration>08:34</itunes:duration>
       <itunes:image href="{{SITE_URL}}/s2e58.jpg" />
       <itunes:season>2</itunes:season>
       <itunes:episode>58</itunes:episode>
