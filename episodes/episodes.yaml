@@ -830,7 +830,6 @@ episodes:
     apple_id: 56fa23-445a-4019-b711-c555674451a3
     duration: '16:59'
   58:
-    size: 13951191
     season: 2
     title: המזומן שמסרב למות
     description: אנחנו חיים בעולם שבו כולם מדברים על cashless, משלמים עם Apple Pay,
@@ -842,7 +841,6 @@ episodes:
     youtube_id: sxCAQoYVoGM
     amazon_id: cf2543ac-7c53-4476-8b2d-5b49bd2479f7
     apple_id: '1000796759271'
-    duration: '09:40'
   59:
     size: 23086036
     season: 2
