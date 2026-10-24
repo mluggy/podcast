@@ -802,6 +802,7 @@ episodes:
     apple_id: '1000779295285'
     duration: '14:21'
   56:
+    size: 27788387
     season: 2
     title: מי באמת הפיל את רכבת ישראל
     description: אין לי את הלוגים של רכבת ישראל או התחקירים שהובילו לקריסה, לכאורה,
@@ -813,6 +814,7 @@ episodes:
     youtube_id: jLV4hJxKpG0
     amazon_id: 7ffc42ce-45a3-4819-a764-1ab41670b6aa
     apple_id: '1000787891143'
+    duration: '19:16'
   57:
     size: 24489902
     season: 2
