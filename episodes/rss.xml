@@ -10,7 +10,7 @@
       <link>{{SITE_URL}}</link>
     </image>
     <generator>coil — https://github.com/mluggy/coil</generator>
-    <lastBuildDate>Sat, 24 Oct 2026 13:08:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 19:23:21 GMT</lastBuildDate>
     <atom:link href="{{SITE_URL}}/rss.xml" rel="self" type="application/rss+xml" />
     <copyright>מיכאל לוגסי</copyright>
     <language>he</language>
@@ -1037,6 +1037,40 @@
       <itunes:episodeType>full</itunes:episodeType>
       <dc:creator>מיכאל לוגסי</dc:creator>
       <podcast:transcript url="{{SITE_URL}}/s2e59.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>מיקרו-דרמות והסיפור של קוויבי</title>
+      <description>באוקטובר 2020 ג&apos;פרי קצנברג, האיש שמאחורי מלך האריות ושרק, נפרד בזום ממאתיים עובדים ששרפו מיליארדים. באותו הזמן, הסינים עשו מיליארדים מאותו רעיון בדיוק.</description>
+      <link>{{SITE_URL}}/60</link>
+      <guid isPermaLink="false">michael-he-s2e60</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e60.mp3" length="16510403" type="audio/mpeg" />
+      <itunes:summary>באוקטובר 2020 ג&apos;פרי קצנברג, האיש שמאחורי מלך האריות ושרק, נפרד בזום ממאתיים עובדים ששרפו מיליארדים. באותו הזמן, הסינים עשו מיליארדים מאותו רעיון בדיוק.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11:27</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e60.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>60</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e60.srt" type="application/x-subrip" rel="captions" language="he" />
+    </item>
+    <item>
+      <title>הטלוויזיה שלכם מלאה בזבל</title>
+      <description>הכסף שמאחורי טלוויזיה שקניתם בזול, מה היא יודעת עליכם ואיך סוכן אחד הצליח לנקות את הסלון של ההורים.</description>
+      <link>{{SITE_URL}}/61</link>
+      <guid isPermaLink="false">michael-he-s2e61</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="{{SITE_URL}}/s2e61.mp3" length="14387976" type="audio/mpeg" />
+      <itunes:summary>הכסף שמאחורי טלוויזיה שקניתם בזול, מה היא יודעת עליכם ואיך סוכן אחד הצליח לנקות את הסלון של ההורים.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>09:58</itunes:duration>
+      <itunes:image href="{{SITE_URL}}/s2e61.jpg" />
+      <itunes:season>2</itunes:season>
+      <itunes:episode>61</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <dc:creator>מיכאל לוגסי</dc:creator>
+      <podcast:transcript url="{{SITE_URL}}/s2e61.srt" type="application/x-subrip" rel="captions" language="he" />
     </item>
   </channel>
 </rss>
